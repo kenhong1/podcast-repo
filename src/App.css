@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.aboutMeBox{
+  text-align: center;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+
+.colorRow{
+  /* background-color: #2274A5; */
+  /* border: 1px solid  #2274A5;   */
+}
+
+.aboutMeCont{
+  text-align: center;
+  margin: 0 auto;
+}
+
 .fontAwe{
   color:  white;
 }
@@ -19,17 +35,7 @@
   width: 100%;
   height: 2.5rem; 
 }
-.internalHomeBox{
-/* background-image: url("https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"); */
-border: 4px solid orange; 
-max-width: 100%; 
-max-height: 90em; 
-}
 
-.homeBox{
-  border: 5px solid green; 
-  /* height: 200%;  */
-}
 .homeHeader{
   font-size: 5em; 
 }
@@ -46,3 +52,5 @@ max-height: 90em;
   width: 100%; 
   padding: 10%; 
 }
+
+
