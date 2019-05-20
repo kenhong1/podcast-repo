@@ -4,7 +4,7 @@ class Library extends Component{
    render(){
       return(
             <div classname="libraryBox">
-               <h1> This Is Your Library Page </h1>
+               <h1> This Page Is For Your Podcasts </h1>
                <Footer />
             </div>  
       )

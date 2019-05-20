@@ -1,5 +1,6 @@
 import React, {Component} from "react"; 
 import Footer from "../Components/Footer";
+import SocialMedia from "../Pages/SocialMedia"
 import {Jumbotron, Button, Card, Row, Container, Col} from "react-bootstrap";
 
 
@@ -46,7 +47,7 @@ class Home extends Component{
                                  <Card.Text>
                                     Get Connected with me through my media channels! 
                                  </Card.Text>
-                                 <Button variant="primary">Go somewhere</Button>
+                                 <a href="social-media"> <Button variant="primary"> Click </Button> </a> 
                               </Card.Body>
                         </Card>
                      </Col>

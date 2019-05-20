@@ -3,6 +3,8 @@ import './App.css';
 import Home from './Pages/Home';
 import AboutMe from './Pages/AboutMe';
 import Library from './Pages/Library';
+import SocialMedia from "./Pages/SocialMedia"
+
 import { Navbar, Nav } from 'react-bootstrap';
 import {BrowserRouter, Route, Link} from "react-router-dom"
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -36,6 +38,7 @@ render(){
         <Route exact path="/" component={Home} /> 
         <Route exact path="/about-me" render={() => <AboutMe AboytMe={AboutMe} /> } /> 
         <Route exact path="/podcasts" render={() => <Library Library={Library} /> } /> 
+  <Route exact path="/social-media"render={() => <SocialMedia SocialMedia={SocialMedia} /> }/> 
     </div>
     </BrowserRouter>
   );
