@@ -8,6 +8,7 @@ class AboutMe extends Component{
       return(
          <div className="aboutMeBox">
             <h1 class> About Me </h1>
+            <br /> 
          <Row>
             <Col>
                <h1> pictures and stuff</h1>
@@ -18,14 +19,6 @@ class AboutMe extends Component{
             </p>
             </Col>
          </Row> 
-            <Container className="aboutMeCont">
-                  <h1> Connect With Me! </h1>
-               <Row>
-                  <Col>
-                  <p> Fb icons and such </p>
-                  </Col>
-               </Row>
-            </Container>
             <Footer /> 
          </div>
       )

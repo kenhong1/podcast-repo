@@ -10,9 +10,7 @@ class Home extends Component{
             <div className="internalHomeBox">
                <Jumbotron className="jumbotron" fluid>
                <h1 className="homeHeader">Sam Vinson</h1>
-                  <p>World Wide Niggahs</p>
                   <p> stuff that goes here </p>
-                  <a href="/about-me"><Button variant="primary">Learn more niggah </Button></a>
                </Jumbotron>
                <Container>
                   <Row>
@@ -20,12 +18,11 @@ class Home extends Component{
                         <Card style={{ width: '20rem' }}>   
                         <Card.Img variant="top" src="holder.js/100px180" />
                               <Card.Body>
-                                 <Card.Title>Card Title</Card.Title>
+                                 <Card.Title>About Me </Card.Title>
                                  <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Get to know who I am and what I do. 
                                  </Card.Text>
-                                 <Button variant="primary">Go somewhere</Button>
+                                 <a href="about-me"><Button variant="primary">Go somewhere</Button> </a> 
                               </Card.Body>
                         </Card>
                      </Col>
@@ -33,10 +30,9 @@ class Home extends Component{
                         <Card style={{ width: '20rem' }}>   
                            <Card.Img variant="top" src="holder.js/100px180" />
                               <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Podcasts</Card.Title>
                               <Card.Text>
-                                 Some quick example text to build on the card title and make up the bulk of
-                                 the card's content.
+                                 Listen to my latest podcasts here! 
                               </Card.Text>
                               <Button variant="primary">Go somewhere</Button>
                               </Card.Body>
@@ -46,10 +42,9 @@ class Home extends Component{
                         <Card style={{ width: '20rem' }}>   
                            <Card.Img variant="top" src="holder.js/100px180" />
                               <Card.Body>
-                                 <Card.Title>Card Title</Card.Title>
+                                 <Card.Title>Social Media </Card.Title>
                                  <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Get Connected with me through my media channels! 
                                  </Card.Text>
                                  <Button variant="primary">Go somewhere</Button>
                               </Card.Body>
