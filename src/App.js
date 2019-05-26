@@ -38,7 +38,7 @@ render(){
         <Route exact path="/" component={Home} /> 
         <Route exact path="/about-me" render={() => <AboutMe AboytMe={AboutMe} /> } /> 
         <Route exact path="/podcasts" render={() => <Library Library={Library} /> } /> 
-  <Route exact path="/social-media"render={() => <SocialMedia SocialMedia={SocialMedia} /> }/> 
+        <Route exact path="/social-media"render={() => <SocialMedia SocialMedia={SocialMedia} /> }/> 
     </div>
     </BrowserRouter>
   );
