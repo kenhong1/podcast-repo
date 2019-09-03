@@ -1,8 +1,11 @@
 import React, {Component} from "react"; 
 import Footer from "../Components/Footer";
 import main from "../images/main.jpeg"; 
+import sam from "../images/Sam.jpeg"; 
+import stats from "../images/stats.JPG"; 
+import samVideo from "../images/samVideo.mp4"; 
 import SocialMedia from "../Pages/SocialMedia"
-import {Jumbotron, Button, Card, Row, Container, Col} from "react-bootstrap";
+import {Jumbotron, Button, Card, Row, Container, Col, Image} from "react-bootstrap";
 
 
 class Home extends Component{
@@ -11,14 +14,17 @@ class Home extends Component{
          <div className="homeBox">
             <div className="internalHomeBox">
                <Jumbotron className="jumbotron" fluid>
-               <img src={main} />
-
+               {/* <video id="video-background" preload autoplay loop> */}
+               <video className="videoBox" autoPlay loop>
+                  <source src={samVideo} type="video/mp4" />
+               </video>
+               {/* </video>  */}
                </Jumbotron>
                <Container>
                   <Row>
                      <Col>
                         <Card style={{ width: '20rem' }}>   
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img className= "samsPicture" variant="top" src={sam} />
                               <Card.Body>
                                  <Card.Title>About Me </Card.Title>
                                  <Card.Text>
@@ -30,7 +36,7 @@ class Home extends Component{
                      </Col>
                      <Col>
                         <Card style={{ width: '20rem' }}>   
-                           <Card.Img variant="top" src="holder.js/100px180" />
+                           <Card.Img className= "statsPicture" variant="top" src={stats} />
                               <Card.Body>
                               <Card.Title>Podcasts</Card.Title>
                               <Card.Text>
