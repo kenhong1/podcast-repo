@@ -1,5 +1,6 @@
 import React, {Component} from "react"; 
 import Footer from "../Components/Footer";
+import main from "../images/main.jpeg"; 
 import SocialMedia from "../Pages/SocialMedia"
 import {Jumbotron, Button, Card, Row, Container, Col} from "react-bootstrap";
 
@@ -10,8 +11,8 @@ class Home extends Component{
          <div className="homeBox">
             <div className="internalHomeBox">
                <Jumbotron className="jumbotron" fluid>
-               <h1 className="homeHeader">Sam Vinson</h1>
-                  <p> stuff that goes here </p>
+               <img src={main} />
+
                </Jumbotron>
                <Container>
                   <Row>
@@ -54,7 +55,9 @@ class Home extends Component{
                   </Row>
                </Container>
             </div>
-         <Footer /> 
+            <div id="footerDiv">
+               {/* <Footer />  */}
+            </div>
          </div>
       )
    }
